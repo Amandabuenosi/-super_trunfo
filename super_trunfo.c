@@ -48,17 +48,17 @@ int main(){
 //Iniciando o jogo
 
     printf("Seja bem vindo ao Super Trunfo, vamos começar cadastrando as informações de cada carta! \n", greeting);
-    printf("Carta 1: \n", carta1);
-    printf("Digite o estado \n", estado);
-    scanf("%^\n]", estado);
-    printf("Digite o código da carta:\n",Codigo);
-    scanf("%s", &Codigo);
-
-
-
     
-   printf("Nome da cidade: %s\n", estado);
-   printf("Código: %s",Codigo);
+    printf("Digite o estado \n", estado);
+    scanf("%[^\n]", estado);
+    printf("Digite o código da carta:\n",Codigo);
+    scanf("%s", Codigo);
+
+
+
+    printf("Carta 1: \n", carta1); 
+    printf("Nome da cidade: %s\n", estado);
+    printf("Código: %s",Codigo);
 
 
 
