@@ -35,8 +35,8 @@ Número de Pontos Turísticos: A quantidade de pontos turísticos na cidade. Tip
 // iniciando código C
 
 int main(){
-    char greeting[100];
-    char carta1[1];
+    char greeting[200];
+    char carta1[20];
     char Codigo[3];
     char estado [30];
     int populacao;
@@ -47,17 +47,18 @@ int main(){
 
 //Iniciando o jogo
 
-    printf("Seja bem vindo ao Super Trunfo, vamos começar cadastrando as informações de cada carta \n", greeting);
-
-    //printf("Digite o número da carta: \n", carta1);
-   // scanf("%d", carta1);
-   // printf("Digite o estado \n", estado);
-   // scanf("%^\n]", estado);
+    printf("Seja bem vindo ao Super Trunfo, vamos começar cadastrando as informações de cada carta! \n", greeting);
+    printf("Carta 1: \n", carta1);
+    printf("Digite o estado \n", estado);
+    scanf("%^\n]", estado);
+    printf("Digite o código da carta:\n",Codigo);
+    scanf("%s", &Codigo);
 
 
 
     
-   // printf("Nome da cidade:\n", estado);
+   printf("Nome da cidade: %s\n", estado);
+   printf("Código: %s",Codigo);
 
 
 
