@@ -97,7 +97,7 @@ pibpercapita2= PIB2 / populacao2;
     printf("População: %d\n", populacao);
     printf("Área: %.2f km² \n", area);
     printf("PIB: %.2f bilhões de reais\n", PIB);
-    printf("Número de Pontos Turísticos: %d\n \n", Pontos_turísticos);
+    printf("Número de Pontos Turísticos: %d\n", Pontos_turísticos);
     printf("Densidade Populacional: %.2f hab/km² \n", densidade1);
     printf("PIB per Capita: %.2f reais \n \n", pibpercapita1);
 
