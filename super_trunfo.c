@@ -135,8 +135,7 @@ superPoder2 = populacao2+area2+PIB2+Pontos_turísticos2+pibpercapita2;
     int compdensidade = densidade1 < densidade2;
     int comppibpercapita = pibpercapita1> pibpercapita2;
     int compsuperpoder = superPoder1 > superPoder2;
-    int result;
-
+    
 
     //Exibição das comparações.
     printf("Comparando a carta 1 com a carta 2...  \n\n");
